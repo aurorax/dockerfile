@@ -1,5 +1,6 @@
 FROM alpine:3.6
 
+
 RUN set -xe && \
     apk upgrade --update && \
     apk add --no-cache \
